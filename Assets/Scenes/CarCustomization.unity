@@ -276,8 +276,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1162138861}
         m_TargetAssemblyTypeName: SpriteSwitcher, Assembly-CSharp
-        m_MethodName: SwitchSprite
-        m_Mode: 1
+        m_MethodName: ChangeSprite
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -808,7 +808,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 240888570}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1162138861}
+        m_TargetAssemblyTypeName: SpriteSwitcher, Assembly-CSharp
+        m_MethodName: ChangeSprite
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 9
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &240888570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1465,7 +1477,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 993285108}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1162138861}
+        m_TargetAssemblyTypeName: SpriteSwitcher, Assembly-CSharp
+        m_MethodName: ChangeSprite
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &993285108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1720,7 +1744,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1047342095}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1162138861}
+        m_TargetAssemblyTypeName: SpriteSwitcher, Assembly-CSharp
+        m_MethodName: ChangeSprite
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1047342095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1841,7 +1877,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1099142401}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1162138861}
+        m_TargetAssemblyTypeName: SpriteSwitcher, Assembly-CSharp
+        m_MethodName: ChangeSprite
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 7
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1099142401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1962,7 +2010,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1113300019}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1162138861}
+        m_TargetAssemblyTypeName: SpriteSwitcher, Assembly-CSharp
+        m_MethodName: ChangeSprite
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1113300019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2107,7 +2167,7 @@ MonoBehaviour:
   - {fileID: 1411776683, guid: 94020cef5c5d28a43aba01c077413472, type: 3}
   - {fileID: -1978404866, guid: 94020cef5c5d28a43aba01c077413472, type: 3}
   - {fileID: -1927891991, guid: 94020cef5c5d28a43aba01c077413472, type: 3}
-  - {fileID: -1927891991, guid: 94020cef5c5d28a43aba01c077413472, type: 3}
+  - {fileID: -845096366, guid: 94020cef5c5d28a43aba01c077413472, type: 3}
   - {fileID: -1016311805, guid: 94020cef5c5d28a43aba01c077413472, type: 3}
   carSpriteGameObject: {fileID: 1162138858}
 --- !u!1 &1247475179
@@ -2126,7 +2186,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1247475180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2300,7 +2360,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1355113287}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1162138861}
+        m_TargetAssemblyTypeName: SpriteSwitcher, Assembly-CSharp
+        m_MethodName: ChangeSprite
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1355113287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2349,11 +2421,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1593458908599513327, guid: 746dba8ce5ddc5f4a9457a847f5e642e, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1593458908599513327, guid: 746dba8ce5ddc5f4a9457a847f5e642e, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1593458908599513327, guid: 746dba8ce5ddc5f4a9457a847f5e642e, type: 3}
       propertyPath: m_SizeDelta.x
@@ -2365,11 +2437,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1593458908599513327, guid: 746dba8ce5ddc5f4a9457a847f5e642e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1593458908599513327, guid: 746dba8ce5ddc5f4a9457a847f5e642e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1868954348619358878, guid: 746dba8ce5ddc5f4a9457a847f5e642e, type: 3}
       propertyPath: m_Enabled
@@ -2429,11 +2501,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6275321704032359142, guid: 746dba8ce5ddc5f4a9457a847f5e642e, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -1903.6511
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6275321704032359142, guid: 746dba8ce5ddc5f4a9457a847f5e642e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6521017379440980373, guid: 746dba8ce5ddc5f4a9457a847f5e642e, type: 3}
       propertyPath: m_Enabled
@@ -2445,7 +2517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6808326249333150586, guid: 746dba8ce5ddc5f4a9457a847f5e642e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7319505049971915642, guid: 746dba8ce5ddc5f4a9457a847f5e642e, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2538,7 +2610,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1430018095}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1162138861}
+        m_TargetAssemblyTypeName: SpriteSwitcher, Assembly-CSharp
+        m_MethodName: ChangeSprite
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1430018095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2853,7 +2937,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1679191477}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1162138861}
+        m_TargetAssemblyTypeName: SpriteSwitcher, Assembly-CSharp
+        m_MethodName: ChangeSprite
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1679191477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3327,7 +3423,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2069146574}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1162138861}
+        m_TargetAssemblyTypeName: SpriteSwitcher, Assembly-CSharp
+        m_MethodName: ChangeSprite
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2069146574
 MonoBehaviour:
   m_ObjectHideFlags: 0
