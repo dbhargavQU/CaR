@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 94020cef5c5d28a43aba01c077413472
+guid: 9549e20d8394d4745b6a8dd435f117c7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d5e1033b9fb92442aa680fba06f9172
-      internalID: 91812697
+      spriteID: d81549dbeede30d4a84b54beee49b735
+      internalID: -946089933
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c870beacd39c21247aec095263a1f4d0
-      internalID: -474961356
+      spriteID: 1ee6a20c80151104bbe20f906a132c29
+      internalID: -421850252
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae82e130c63e3c443911936d148d12d0
-      internalID: 755130272
+      spriteID: caedbb45c729a9d44929b17cbfb4c238
+      internalID: -898362177
       vertices: []
       indices: 
       edges: []
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da6b80d0c7143fb44a1dee9e9ba929a7
-      internalID: 375803304
+      spriteID: 8ba3435140e1bab4287c65bbdb0e4bdf
+      internalID: 1645765611
       vertices: []
       indices: 
       edges: []
@@ -208,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90789338c1d026a47b56261620572660
-      internalID: -1370491784
+      spriteID: d5fb61844bd9c8744b6703096296a050
+      internalID: -420846625
       vertices: []
       indices: 
       edges: []
@@ -229,8 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c645a31c4a01ed040afca13f3d2e6dc4
-      internalID: 1411776683
+      spriteID: 76f9d24433b9c714c94cab5d6307a4af
+      internalID: -2039182638
       vertices: []
       indices: 
       edges: []
@@ -250,8 +250,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78d1f18113d51cf46ad3648d6ab44a7c
-      internalID: -1252969902
+      spriteID: f3a2167fbaf7a3f4ca1b35e403703e41
+      internalID: 898245300
       vertices: []
       indices: 
       edges: []
@@ -271,8 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60053da28bb78ed46a071d7c606c2fa9
-      internalID: -1978404866
+      spriteID: 05253e8442e024444a684accf91a3607
+      internalID: 1063151519
       vertices: []
       indices: 
       edges: []
@@ -292,8 +292,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2fa79e26006ea040951ac3d8ab893c6
-      internalID: -1927891991
+      spriteID: 1cff2091cd1a61645959a16cb3d77544
+      internalID: 501661843
       vertices: []
       indices: 
       edges: []
@@ -313,8 +313,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80d868a390afa4c49b857ee85637c6cf
-      internalID: -1841535327
+      spriteID: 45dd8a276b585764092b1a59d32b8ad6
+      internalID: 56035119
       vertices: []
       indices: 
       edges: []
@@ -334,8 +334,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27038d58dc9332f4da6ef507ca195ef0
-      internalID: -845096366
+      spriteID: 7935620b14ce60d4887d2791cee4db60
+      internalID: -1917111794
       vertices: []
       indices: 
       edges: []
@@ -355,8 +355,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45ad035ba1d71494a9315134faf21d63
-      internalID: -1016311805
+      spriteID: ee6efffc18472a443865f90c30e62af7
+      internalID: 87206283
       vertices: []
       indices: 
       edges: []
@@ -376,8 +376,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a96e516127ed9104696725561a005455
-      internalID: 2062937759
+      spriteID: ffa59236cc301204ea4fb3e430412cb8
+      internalID: 1188532602
       vertices: []
       indices: 
       edges: []
@@ -397,8 +397,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f6b4d2be9d5e744baed317b6fecde46
-      internalID: 49081557
+      spriteID: b89a23341bef56343bbd2f1dcbc6c850
+      internalID: -1093097299
       vertices: []
       indices: 
       edges: []
@@ -418,8 +418,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cd7d358285be2748bd59da2208dfa81
-      internalID: 1760821880
+      spriteID: e7fdb0e2aaaa24346a252086bd3f9f37
+      internalID: -1701501335
       vertices: []
       indices: 
       edges: []
@@ -439,8 +439,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80505dd7cb27a144fa55d3209418190d
-      internalID: 377256614
+      spriteID: 85d22dfc6a9bf0a4d81dca44e7cf3afa
+      internalID: -2038101071
       vertices: []
       indices: 
       edges: []
@@ -456,22 +456,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      CarColors_0: 91812697
-      CarColors_1: -474961356
-      CarColors_10: -845096366
-      CarColors_11: -1016311805
-      CarColors_12: 2062937759
-      CarColors_13: 49081557
-      CarColors_14: 1760821880
-      CarColors_15: 377256614
-      CarColors_2: 755130272
-      CarColors_3: 375803304
-      CarColors_4: -1370491784
-      CarColors_5: 1411776683
-      CarColors_6: -1252969902
-      CarColors_7: -1978404866
-      CarColors_8: -1927891991
-      CarColors_9: -1841535327
+      CarColors_0: -946089933
+      CarColors_1: -421850252
+      CarColors_10: -1917111794
+      CarColors_11: 87206283
+      CarColors_12: 1188532602
+      CarColors_13: -1093097299
+      CarColors_14: -1701501335
+      CarColors_15: -2038101071
+      CarColors_2: -898362177
+      CarColors_3: 1645765611
+      CarColors_4: -420846625
+      CarColors_5: -2039182638
+      CarColors_6: 898245300
+      CarColors_7: 1063151519
+      CarColors_8: 501661843
+      CarColors_9: 56035119
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
