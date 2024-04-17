@@ -15,7 +15,7 @@ public class TextInputHandler : MonoBehaviour
 
     void Start()
     {
-        filePath = @"D:\College\Senior\GDD311\CaR\Assets\scholarships.txt";
+        filePath = @"Assets\scholarships.txt";
         saveButton.onClick.AddListener(SaveAndResetInput);
         LoadScholarships();
         DisplayScholarships();
