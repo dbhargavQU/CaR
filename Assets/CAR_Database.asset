@@ -81,7 +81,21 @@ MonoBehaviour:
     spritePortraits: []
   items: []
   locations: []
-  variables: []
+  variables:
+  - id: 1
+    fields:
+    - title: Name
+      value: PlayerName
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: Default
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
   conversations:
   - id: 1
     fields:
@@ -583,15 +597,15 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: Please provide your name for my records.
+        value: 
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Please provide your name for my records. [var=?PlayerName]
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetContinueMode(false);
         type: 0
         typeString: 
       - title: Response Menu Sequence
@@ -646,10 +660,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Greetings {player}! Are you excited
+        value: 'Greetings [var=PlayerName]! Are you excited
 
-          to embark on this
-          road trip with
+          to embark
+          on this road trip with
 
           me? To begin with, you may
 
@@ -663,7 +677,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetContinueMode(original);
         type: 0
         typeString: 
       conversationID: 2
@@ -741,7 +755,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
+    canvasScrollPosition: {x: 63, y: 141}
     canvasZoom: 1
   - id: 3
     fields:
