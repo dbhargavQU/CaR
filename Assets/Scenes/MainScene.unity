@@ -469,7 +469,7 @@ MonoBehaviour:
     - name: Trigger 1
       type: 0
       workOnce: 1
-      position: 0.10262688042389022
+      position: 0.10262688249349594
       enabled: 1
       color: {r: 1, g: 1, b: 1, a: 1}
       onCross:
@@ -2709,7 +2709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7101bf94e80c44e4bb859ef463d7191d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destinationIndex: 1
+  destinationIndex: 0
 --- !u!58 &1587363114
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2910,7 +2910,7 @@ MonoBehaviour:
   buildOnAwake: 1
   buildOnEnable: 0
   applyDirectionRotation: 1
-  useTriggers: 0
+  useTriggers: 1
   triggerGroup: 0
   _direction: 1
   _dontLerpDirection: 0

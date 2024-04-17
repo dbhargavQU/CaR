@@ -2298,7 +2298,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 91812697, guid: 94020cef5c5d28a43aba01c077413472, type: 3}
+  m_Sprite: {fileID: -946089933, guid: 9549e20d8394d4745b6a8dd435f117c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2337,16 +2337,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 91812697, guid: 94020cef5c5d28a43aba01c077413472, type: 3}
-  - {fileID: -474961356, guid: 94020cef5c5d28a43aba01c077413472, type: 3}
-  - {fileID: 755130272, guid: 94020cef5c5d28a43aba01c077413472, type: 3}
-  - {fileID: 375803304, guid: 94020cef5c5d28a43aba01c077413472, type: 3}
-  - {fileID: -1370491784, guid: 94020cef5c5d28a43aba01c077413472, type: 3}
-  - {fileID: 1411776683, guid: 94020cef5c5d28a43aba01c077413472, type: 3}
-  - {fileID: -1978404866, guid: 94020cef5c5d28a43aba01c077413472, type: 3}
-  - {fileID: -1927891991, guid: 94020cef5c5d28a43aba01c077413472, type: 3}
-  - {fileID: -845096366, guid: 94020cef5c5d28a43aba01c077413472, type: 3}
-  - {fileID: -1016311805, guid: 94020cef5c5d28a43aba01c077413472, type: 3}
+  - {fileID: -946089933, guid: 9549e20d8394d4745b6a8dd435f117c7, type: 3}
+  - {fileID: -421850252, guid: 9549e20d8394d4745b6a8dd435f117c7, type: 3}
+  - {fileID: -898362177, guid: 9549e20d8394d4745b6a8dd435f117c7, type: 3}
+  - {fileID: 1645765611, guid: 9549e20d8394d4745b6a8dd435f117c7, type: 3}
+  - {fileID: -420846625, guid: 9549e20d8394d4745b6a8dd435f117c7, type: 3}
+  - {fileID: -2039182638, guid: 9549e20d8394d4745b6a8dd435f117c7, type: 3}
+  - {fileID: 1063151519, guid: 9549e20d8394d4745b6a8dd435f117c7, type: 3}
+  - {fileID: 501661843, guid: 9549e20d8394d4745b6a8dd435f117c7, type: 3}
+  - {fileID: -1917111794, guid: 9549e20d8394d4745b6a8dd435f117c7, type: 3}
+  - {fileID: 87206283, guid: 9549e20d8394d4745b6a8dd435f117c7, type: 3}
   carSpriteGameObject: {fileID: 1162138858}
 --- !u!1 &1224606690
 GameObject:
@@ -2384,7 +2384,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 392, y: 274}
+  m_AnchoredPosition: {x: 365, y: 229}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1224606692
@@ -2440,7 +2440,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: FactoryScene
+          m_StringArgument: MainScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1224606693

@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/FactoryScene.unity
     guid: 4e3506db327914340ba380e7c3bb4664
   - enabled: 1
-    path: Assets/Scenes/Area1.unity
+    path: Assets/Scenes/Area0.unity
     guid: a374b06bd7b236b448655755bdc624f9
   - enabled: 1
     path: Assets/Scenes/Area2.unity
@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Area3.unity
     guid: 08fa5fd6c5219014e84fc65e914d1fa4
+  - enabled: 1
+    path: Assets/Scenes/CarCustomization.unity
+    guid: d335d6c6c1c9b0446b8734db71fb7725
   m_configObjects: {}
