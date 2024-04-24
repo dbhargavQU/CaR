@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CarCustomization.unity
     guid: d335d6c6c1c9b0446b8734db71fb7725
+  - enabled: 1
+    path: Assets/Scenes/Pin Entry.unity
+    guid: 7ed77c5fe92b4e44aa28e9f039126211
   m_configObjects: {}
