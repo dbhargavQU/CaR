@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 145048836}
   - component: {fileID: 145048838}
   - component: {fileID: 145048839}
+  - component: {fileID: 145048840}
   m_Layer: 0
   m_Name: ScriptHolder
   m_TagString: Untagged
@@ -214,6 +215,288 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &145048840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145048835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccd670997a3f10c408dfb992b63f395c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Events:
+  - Title: Lightheaded Lament
+    Description: "During one of your classes, you begin to feel lightheaded and dizzy.
+      You\u2019ve heard about an illness going around campus, and you\u2019re worried
+      you may have caught something. "
+    Choices:
+    - Description: Head to health services as soon as possible and get checked out.
+      Outcome: You head to health services, and after a few tests they tell you to
+        take some medicine and stay hydrated.
+      FoodMod: 0
+      FuelMod: 2
+      MoneyMod: 0
+    - Description: Take a quick rest and hope you get better soon.
+      Outcome: "You awaken confused at your desk, apparently you passed out during
+        class! You feel groggy and unwell for the rest of the week\u2026"
+      FoodMod: 0
+      FuelMod: -4
+      MoneyMod: -10
+  - Title: Burnout Roundabout
+    Description: "You\u2019ve been working very hard on papers and projects, almost
+      non-stop in fact! Now that you think about it, you can\u2019t remember the
+      last time you\u2019ve taken a break\u2026"
+    Choices:
+    - Description: Power through the remaining work.
+      Outcome: "You only have a couple pages of work left to get through! You decide
+        to power on through, but you wind up getting extremely exhausted and demotivated
+        afterwards. It\u2019s important to take breaks!"
+      FoodMod: -1
+      FuelMod: -4
+      MoneyMod: 0
+    - Description: Take a short break.
+      Outcome: "You decide to take a short break, and you feel all the better for
+        it! With your energy renewed, you swiftly tackle the remaining work and can
+        finally take a breather. You\u2019ve earned it! "
+      FoodMod: 0
+      FuelMod: 4
+      MoneyMod: 0
+    - Description: Ask friends to come over.
+      Outcome: You decide that company would serve you well right about now, and
+        before you know it, your friends have gathered around to work alongside you!
+        Having others around gives you a short burst of motivation, but just be careful
+        not to let it distract you from your deadlines!
+      FoodMod: 0
+      FuelMod: 2
+      MoneyMod: 0
+  - Title: Commute Dispute
+    Description: "On the way to your class, you suddenly find yourself stuck in terrible
+      traffic! As the minutes go by, you realize class is almost halfway over by
+      now. Traffic doesn\u2019t seem like it will get better anytime soon, either.
+      What should you do?"
+    Choices:
+    - Description: Email your Professor and inform them of your situation.
+      Outcome: Your Professor informs you that several others in your class are also
+        stuck in traffic. Apparently, a large accident has occurred further down
+        the road! Due to the situation, your Professor excuses your absence and tells
+        you not to worry about it. Make sure to make use of their Office Hours to
+        catch up on any missed work!
+      FoodMod: 0
+      FuelMod: 2
+      MoneyMod: 0
+    - Description: Book it to class as soon as traffic clears up.
+      Outcome: As soon as you are on campus, you sprint to your class and arrive
+        just before the Professor leaves. You apologize profusely and explain the
+        bad traffic to the Professor, who decides to just excuse your absence and
+        invites you to join them for Office Hours.
+      FoodMod: -2
+      FuelMod: 1
+      MoneyMod: 0
+    - Description: "Skip class, you won\u2019t make it on time anyways."
+      Outcome: "You decide to skip this class and take the time to grab a meal. The
+        next day, you find an unexcused absence marked in your grades! Even after
+        explaining the traffic issue to the Professor, they won\u2019t budge. You
+        definitely should have reached out sooner!"
+      FoodMod: 1
+      FuelMod: -3
+      MoneyMod: 0
+  - Title: Prompt Problems
+    Description: "You\u2019re getting ready to start working on your college application
+      essay. One of the prompts that you felt writing about would make the strongest
+      impression was to write about a time that you took a risk. However, you can\u2019t
+      think of any risks that you\u2019ve taken that would be interesting to write
+      about."
+    Choices:
+    - Description: Choose a different topic to write about.
+      Outcome: "You decide upon a different topic, something you are more capable
+        of writing about. Although you weren\u2019t able to write about your first
+        idea, you still came up with a great essay!"
+      FoodMod: 0
+      FuelMod: 2
+      MoneyMod: 0
+    - Description: "Talk with family and friends to see if they know a risk you\u2019ve
+        taken. "
+      Outcome: You are able to brainstorm some risks through your conversations,
+        and write an essay that you feel will blow the admissions staff away!
+      FoodMod: 0
+      FuelMod: 4
+      MoneyMod: 0
+    - Description: 'Write about a risk someone else took and lie about it being your
+        experience. '
+      Outcome: "You struggle to write about this risk, as you can\u2019t draw upon
+        personal experience to help guide the writing process. Although the end product
+        may be great, you still feel like the essay rings a bit hollow\u2026"
+      FoodMod: 0
+      FuelMod: -2
+      MoneyMod: 0
+  - Title: Internship Inquiry
+    Description: "At the career fair, you come across a booth for a company searching
+      for interns. You remember your Professor mentioning how important gaining job
+      experience is, but you also know that taking on an internship will be very
+      difficult and time-consuming\u2026 What should you do?"
+    Choices:
+    - Description: Accept the internship offer.
+      Outcome: You decide to accept the internship offer, and gain some very useful
+        work experience through the grueling ordeal. Although it was tiring, you
+        have some exciting new job prospects now!
+      FoodMod: -1
+      FuelMod: -2
+      MoneyMod: 70
+    - Description: Decline the internship offer.
+      Outcome: You decide to focus on academics first, and decline the internship
+        offer. Make sure to keep in touch with the company, you never know when they
+        might be hiring again!
+      FoodMod: 1
+      FuelMod: 2
+      MoneyMod: -20
+  - Title: 'Club Conundrum '
+    Description: "You\u2019ve been thinking about joining a club recently, but you
+      aren\u2019t sure whether or not you have the time to spare. Joining a club
+      can be a very worthwhile experience, you could meet new people who share similar
+      interests. On the other hand, free time is scarce, especially so if you have
+      a part time job."
+    Choices:
+    - Description: Join a club that matches your interests.
+      Outcome: 'You get to meet some cool people who share common interests and gain
+        some opportunities to express yourself that you otherwise would not have
+        gotten. '
+      FoodMod: -2
+      FuelMod: 4
+      MoneyMod: 0
+    - Description: "Save your free time, don\u2019t join a club."
+      Outcome: 'You decide to use your spare time in a different way. No shame in
+        that! '
+      FoodMod: 0
+      FuelMod: 0
+      MoneyMod: 30
+    - Description: " Join a club that your friends are in, but that doesn\u2019t
+        match your interests."
+      Outcome: You join a club that your friends are in, and get to spend some quality
+        time with them. Although the club does bore you a bit, you get some social
+        opportunities that you otherwise would not have!
+      FoodMod: -2
+      FuelMod: 2
+      MoneyMod: -30
+  - Title: Scheduling Scramble
+    Description: "After planning out what you\u2019re going to take this semester,
+      you notice a block of free time between classes. You have a few options for
+      filling this time, but you are uncertain what would be the best option\u2026 "
+    Choices:
+    - Description: Use the free time to complete homework & study.
+      Outcome: 'You decide to be productive and use your free time to get some work
+        done. This is a great use of your time, and means you will have more free
+        time later on! '
+      FoodMod: -2
+      FuelMod: 2
+      MoneyMod: 0
+    - Description: Use the free time to socialize
+      Outcome: "You decide to use your free time to meet up with some friends. You
+        are refreshed after hanging out, and although your time wasn\u2019t productive,
+        it was fun. "
+      FoodMod: -2
+      FuelMod: 2
+      MoneyMod: 0
+    - Description: Use the free time to grab a meal.
+      Outcome: "You opt to grab a meal during your free time, ensuring you won\u2019t
+        go hungry during your next classes."
+      FoodMod: 2
+      FuelMod: 2
+      MoneyMod: 0
+    - Description: Use the free time to rest up.
+      Outcome: You use your free time to rest up, ensuring you are focused and ready
+        for the next class!
+      FoodMod: 0
+      FuelMod: 4
+      MoneyMod: 0
+  - Title: Necessary Networking
+    Description: "You are at an event for your program, and have spotted several
+      potential people to speak to. There are some very prolific individuals from
+      your field, some students who seem eager to meet others in their shoes, and
+      some people that work in your field that you don\u2019t recognize. Who should
+      you approach?"
+    Choices:
+    - Description: Introduce yourself to the prolific individual.
+      Outcome: "You decide to introduce yourself to the person you recognize. They
+        appear to be quite busy, and you aren\u2019t able to have a very in-depth
+        conversation, but you do exchange information! Hopefully you are able to
+        get in contact in the future\u2026 "
+      FoodMod: 0
+      FuelMod: 2
+      MoneyMod: 0
+    - Description: Join the group of students
+      Outcome: You decide to join the group of students, and wind up making some
+        connections with peers similar to you! Having students that work in the same
+        field as contacts can be a beneficial thing, and you hope to have some fruitful
+        conversations in the future!
+      FoodMod: 0
+      FuelMod: 2
+      MoneyMod: 0
+    - Description: "Speak to the workers you don\u2019t recognize"
+      Outcome: "You approach the workers that you don\u2019t recognize, and wind
+        up having an in-depth conversation about the industry! They offer to meet
+        up after the event, and you are able to exchange contact info."
+      FoodMod: 0
+      FuelMod: 4
+      MoneyMod: 0
+  - Title: Major Mix-up
+    Description: "After a semester working on your selected major, you\u2019ve decided
+      you don\u2019t really enjoy the work you have been doing so far. You could
+      switch majors, try and stick to what you\u2019ve selected, or speak to an advisor
+      and try to find a solution. "
+    Choices:
+    - Description: Switch Majors
+      Outcome: 'You decide to switch majors, and search for something that suits
+        your interests more. It takes a bit of time, but you feel much better after
+        the change! '
+      FoodMod: 0
+      FuelMod: 2
+      MoneyMod: 0
+    - Description: Stick to your Major
+      Outcome: "It\u2019s only a semester in, and you feel as if you\u2019ve already
+        invested too much into this Major. You decide to stick to what you\u2019ve
+        chosen, even if you really dislike the classes\u2026"
+      FoodMod: 0
+      FuelMod: -2
+      MoneyMod: 0
+    - Description: Speak to an Advisor
+      Outcome: 'You speak to an Advisor, and they recommend an alternative course
+        route for you to take. Through this meeting, you are hopefully able to make
+        your Major work for you, but the Advisor says to speak to them if you still
+        struggle with the work. '
+      FoodMod: 0
+      FuelMod: 4
+      MoneyMod: 0
+  - Title: Credit Counting
+    Description: "You realize after planning your schedule that you have a free slot
+      for a class. Every class that you want to take is either full or scheduled
+      during one of your chosen classes, and you aren\u2019t sure what you should
+      do."
+    Choices:
+    - Description: "Select a course you don\u2019t really care about to fill the
+        slot."
+      Outcome: "You pick a course that you don\u2019t really care too much about
+        in order to fulfill the credit requirement. Sometimes, you might come across
+        a course you unexpectedly love this way! Other times\u2026 not so much. "
+      FoodMod: -2
+      FuelMod: 1
+      MoneyMod: -40
+    - Description: Try to swap some courses around to fit in a course you like.
+      Outcome: You decide to swap around some courses, and manage to slot in a course
+        you will enjoy taking. Your schedule is a little messy now, but at least
+        you will remain engaged in coursework!
+      FoodMod: 2
+      FuelMod: -1
+      MoneyMod: -20
+    - Description: "Don\u2019t take a course, leave the credit empty"
+      Outcome: "You decide to not take a course, and give yourself a free period.
+        You\u2019ll need to make up this credit eventually, but for this semester,
+        enjoy your lessened workload!"
+      FoodMod: 0
+      FuelMod: 4
+      MoneyMod: -60
 --- !u!1 &308172056
 GameObject:
   m_ObjectHideFlags: 3
