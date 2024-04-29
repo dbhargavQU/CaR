@@ -10,14 +10,14 @@ public class RandomEvent : MonoBehaviour
     private List<EventInfo> Events = new List<EventInfo>();
 
     [SerializeField]
-    private GameObject OptionButtonPrefab, OptionButtonHolder, OptionsButtonCloser;
+    private GameObject OptionButtonPrefab, OptionButtonHolder, OptionsButtonCloser, EventsCanvas;
     [SerializeField]
     private TMP_Text EventDescription;
     [SerializeField]
     private SplineFollower Car;
     public void Start()
     {
-        EventInitialize();
+        //EventInitialize();
     }
     public EventInfo SelectRandom()
     {
@@ -35,6 +35,7 @@ public class RandomEvent : MonoBehaviour
 
     public void EventInitialize()
     {
+        EventsCanvas.SetActive(true);
         Car.follow = false;
         OptionsButtonCloser.SetActive(false);
         foreach (Transform child in OptionButtonHolder.transform)
