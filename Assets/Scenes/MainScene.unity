@@ -882,6 +882,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1353615816385208339, guid: 746dba8ce5ddc5f4a9457a847f5e642e, type: 3}
+      propertyPath: onAccept.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1446378491700009278, guid: 746dba8ce5ddc5f4a9457a847f5e642e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1018,10 +1022,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6303408149091467810, guid: 746dba8ce5ddc5f4a9457a847f5e642e, type: 3}
-      propertyPath: portraitImage
-      value: 
-      objectReference: {fileID: 1582650257}
     - target: {fileID: 6808326249333150586, guid: 746dba8ce5ddc5f4a9457a847f5e642e, type: 3}
       propertyPath: m_Name
       value: Dialogue Manager
@@ -1240,10 +1240,10 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-    - name: Trigger 6
+    - name: Random Event
       type: 0
       workOnce: 0
-      position: 0.5266216380728616
+      position: 0.5266216397285461
       enabled: 1
       color: {r: 1, g: 1, b: 1, a: 1}
       onCross:
@@ -1261,7 +1261,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-    - name: Trigger 7
+    - name: Random Event
       type: 0
       workOnce: 0
       position: 0.3363112211227417
@@ -1282,7 +1282,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-    - name: Trigger 8
+    - name: Random Event
       type: 0
       workOnce: 0
       position: 0.16101570427417755
@@ -1303,10 +1303,10 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-    - name: Trigger 9
+    - name: Random Event
       type: 0
       workOnce: 0
-      position: 0.06352042406797409
+      position: 0.06330066174268723
       enabled: 1
       color: {r: 1, g: 1, b: 1, a: 1}
       onCross:
@@ -1324,7 +1324,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-    - name: Trigger 10
+    - name: Random Event
       type: 0
       workOnce: 0
       position: 0.6364262700080872
@@ -1345,141 +1345,10 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-    - name: Trigger 11
+    - name: Random Event
       type: 0
       workOnce: 0
       position: 0.7129605412483215
-      enabled: 1
-      color: {r: 1, g: 1, b: 1, a: 1}
-      onCross:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 145048840}
-            m_TargetAssemblyTypeName: RandomEvent, Assembly-CSharp
-            m_MethodName: EventInitialize
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-  - open: 0
-    enabled: 1
-    name: Random Event Group
-    color: {r: 1, g: 1, b: 1, a: 1}
-    triggers:
-    - name: Trigger 1
-      type: 0
-      workOnce: 0
-      position: 0.05207711085677147
-      enabled: 1
-      color: {r: 1, g: 1, b: 1, a: 1}
-      onCross:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 145048840}
-            m_TargetAssemblyTypeName: RandomEvent, Assembly-CSharp
-            m_MethodName: EventInitialize
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-    - name: Trigger 2
-      type: 0
-      workOnce: 0
-      position: 0.16266466677188873
-      enabled: 1
-      color: {r: 1, g: 1, b: 1, a: 1}
-      onCross:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 145048840}
-            m_TargetAssemblyTypeName: RandomEvent, Assembly-CSharp
-            m_MethodName: EventInitialize
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-    - name: Trigger 3
-      type: 0
-      workOnce: 0
-      position: 0.3235422372817993
-      enabled: 1
-      color: {r: 1, g: 1, b: 1, a: 1}
-      onCross:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 145048840}
-            m_TargetAssemblyTypeName: RandomEvent, Assembly-CSharp
-            m_MethodName: EventInitialize
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-    - name: Trigger 4
-      type: 0
-      workOnce: 0
-      position: 0.5299946069717407
-      enabled: 1
-      color: {r: 1, g: 1, b: 1, a: 1}
-      onCross:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 145048840}
-            m_TargetAssemblyTypeName: RandomEvent, Assembly-CSharp
-            m_MethodName: EventInitialize
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-    - name: Trigger 5
-      type: 0
-      workOnce: 0
-      position: 0.6465749740600586
-      enabled: 1
-      color: {r: 1, g: 1, b: 1, a: 1}
-      onCross:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 145048840}
-            m_TargetAssemblyTypeName: RandomEvent, Assembly-CSharp
-            m_MethodName: EventInitialize
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-    - name: Trigger 6
-      type: 0
-      workOnce: 0
-      position: 0.7452593445777893
       enabled: 1
       color: {r: 1, g: 1, b: 1, a: 1}
       onCross:
@@ -4020,17 +3889,6 @@ Transform:
   - {fileID: 669236021}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1582650257 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3750657717472885721, guid: 746dba8ce5ddc5f4a9457a847f5e642e, type: 3}
-  m_PrefabInstance: {fileID: 440536720}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1587363110
 GameObject:
   m_ObjectHideFlags: 0

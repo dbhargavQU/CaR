@@ -2790,7 +2790,7 @@ RectTransform:
   m_GameObject: {fileID: 6304402641414799356}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1261176276456660543}
@@ -2798,7 +2798,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -20}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 40}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1353615816385208339
@@ -2840,7 +2840,7 @@ MonoBehaviour:
     m_textMeshProUGUI: {fileID: 3926410320552206527}
   inputField:
     m_uiInputField: {fileID: 0}
-    m_textMeshProInputField: {fileID: 0}
+    m_textMeshProInputField: {fileID: 2146055112232515416}
   acceptKey: 13
   acceptButton: 
   cancelKey: 27
@@ -2849,7 +2849,20 @@ MonoBehaviour:
   allowBlankInput: 0
   onAccept:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6303408149091467810}
+        m_TargetAssemblyTypeName: PixelCrushers.DialogueSystem.StandardUISubtitlePanel,
+          Assembly-CSharp-firstpass
+        m_MethodName: FinishSubtitle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onCancel:
     m_PersistentCalls:
       m_Calls: []
@@ -3512,7 +3525,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   panel: {fileID: 3198523591898666651}
-  portraitImage: {fileID: 0}
+  portraitImage: {fileID: 3750657717472885721}
   portraitName:
     m_uiText: {fileID: 0}
     m_textMeshProUGUI: {fileID: 5287843765994256782}
