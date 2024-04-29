@@ -62,7 +62,7 @@ MonoBehaviour:
     - title: Name
       value: D.A.N.
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Pictures
       value: '[]'
       type: 3
@@ -76,9 +76,15 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 0}
+    spritePortrait: {fileID: 1475860836, guid: 012526a41fbaa364da22c8acd5c47738, type: 3}
     alternatePortraits: []
-    spritePortraits: []
+    spritePortraits:
+    - {fileID: 1252367417, guid: 012526a41fbaa364da22c8acd5c47738, type: 3}
+    - {fileID: -2091658805, guid: 012526a41fbaa364da22c8acd5c47738, type: 3}
+    - {fileID: -114606967, guid: 012526a41fbaa364da22c8acd5c47738, type: 3}
+    - {fileID: -1915031180, guid: 012526a41fbaa364da22c8acd5c47738, type: 3}
+    - {fileID: -989617900, guid: 012526a41fbaa364da22c8acd5c47738, type: 3}
+    - {fileID: -389078105, guid: 012526a41fbaa364da22c8acd5c47738, type: 3}
   items: []
   locations: []
   variables:
@@ -550,7 +556,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(speaker, pic=7);
         type: 0
         typeString: 
       conversationID: 2
@@ -755,7 +761,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 25.059021, y: 42.055595}
+    canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 0.58000034
   - id: 3
     fields:
@@ -984,7 +990,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(speaker, pic=1);
         type: 0
         typeString: 
       conversationID: 4
@@ -1008,8 +1014,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 143
-        y: 148
+        x: 144
+        y: 145.99998
         width: 160
         height: 30
     - id: 2
@@ -1040,7 +1046,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(speaker, pic=3);
         type: 0
         typeString: 
       conversationID: 4
@@ -1096,7 +1102,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(speaker, pic=5);
         type: 0
         typeString: 
       conversationID: 4
@@ -1400,8 +1406,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 32.749516, y: 242.15297}
-    canvasZoom: 0.75999975
+    canvasScrollPosition: {x: 0, y: 364.88245}
+    canvasZoom: 0.84999967
   - id: 5
     fields:
     - title: Title
@@ -1531,7 +1537,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(D.A.N., pic=1);
         type: 0
         typeString: 
       conversationID: 5
@@ -1587,7 +1593,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(D.A.N., pic=3);
         type: 0
         typeString: 
       conversationID: 5
@@ -1643,7 +1649,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(D.A.N., pic=5);
         type: 0
         typeString: 
       conversationID: 5
@@ -1667,8 +1673,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 155.07318
-        y: 298.07324
+        x: 153.58066
+        y: 299.56577
         width: 160
         height: 30
     - id: 4
@@ -2231,7 +2237,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 198.87383, y: 210.50449}
+    canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 0.6700003
   - id: 6
     fields:
