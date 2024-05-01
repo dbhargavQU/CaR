@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class DestinationChecker : MonoBehaviour
 {
-    private int currentDestination;
+    public int currentDestination;
 
     [SerializeField] private LoadScene Load;
     [SerializeField] private SplineFollower Car;

@@ -155,6 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf73e8d2a0ca1fc459ffa952a8bb4a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentDestination: 2
   Load: {fileID: 145048838}
   Car: {fileID: 1640241937}
 --- !u!4 &145048837
