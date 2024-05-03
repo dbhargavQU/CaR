@@ -207,8 +207,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 14
+  m_fontSize: 23.5
+  m_fontSizeBase: 23.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -341,8 +341,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22.9
-  m_fontSizeBase: 22.9
+  m_fontSize: 44.8
+  m_fontSizeBase: 44.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -543,8 +543,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 14
+  m_fontSize: 23.5
+  m_fontSizeBase: 23.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -918,7 +918,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -78, y: 41.921}
+  m_AnchoredPosition: {x: -433, y: 210}
   m_SizeDelta: {x: 428.2783, y: 42.159}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &591614429
@@ -968,8 +968,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.09
-  m_fontSizeBase: 38.09
+  m_fontSize: 109.48
+  m_fontSizeBase: 109.48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1004,7 +1004,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -501.2168, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1052,7 +1052,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7.5, y: -0.3407}
+  m_AnchoredPosition: {x: -7.5, y: -0.34070206}
   m_SizeDelta: {x: -35, y: -12.6814}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &595215665
@@ -1102,8 +1102,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 14
+  m_fontSize: 41.8
+  m_fontSizeBase: 41.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1230,8 +1230,8 @@ Transform:
   m_GameObject: {fileID: 725704309}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.014, y: -0.0688, z: 0}
-  m_LocalScale: {x: 6.675542, y: 6.7142396, z: 1}
+  m_LocalPosition: {x: -0.0275, y: -0.0688, z: 0}
+  m_LocalScale: {x: 7.4220667, y: 6.7142396, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1679,8 +1679,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150.9, y: -119.4956}
-  m_SizeDelta: {x: 135.9168, y: 32.4211}
+  m_AnchoredPosition: {x: -210.16443, y: -122.45889}
+  m_SizeDelta: {x: 251.588, y: 61.3389}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1326078781
 MonoBehaviour:
@@ -1830,8 +1830,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -153, y: 0}
-  m_SizeDelta: {x: 161, y: 31}
+  m_AnchoredPosition: {x: -214, y: 52}
+  m_SizeDelta: {x: 553, y: 63.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1335516903
 MonoBehaviour:
@@ -2050,8 +2050,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 14
+  m_fontSize: 23.5
+  m_fontSizeBase: 23.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2443,8 +2443,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -223.81577}
-  m_SizeDelta: {x: 0, y: -435.8687}
+  m_AnchoredPosition: {x: 0, y: -396.7231}
+  m_SizeDelta: {x: 0, y: -781.6833}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1409954468
 MonoBehaviour:
@@ -2520,8 +2520,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -153.5, y: -53.1}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -205.9704, y: -38}
+  m_SizeDelta: {x: 444.0592, y: 41.5671}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1632794039
 MonoBehaviour:
@@ -2580,7 +2580,7 @@ MonoBehaviour:
   m_HideSoftKeyboard: 0
   m_CharacterValidation: 0
   m_RegexValue: 
-  m_GlobalPointSize: 14
+  m_GlobalPointSize: 15.4
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
@@ -2688,7 +2688,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e9a6487f7e9b3e48aad43c11e06502a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  filePath: scholarships.txt
 --- !u!4 &1743343416
 Transform:
   m_ObjectHideFlags: 0
@@ -2942,7 +2941,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.5}
+  m_AnchoredPosition: {x: 0, y: -0.5000038}
   m_SizeDelta: {x: -20, y: -13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2090613408
@@ -3233,8 +3232,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 261, y: 88}
-  m_SizeDelta: {x: 203.6819, y: 50}
+  m_AnchoredPosition: {x: 490, y: 206.08}
+  m_SizeDelta: {x: 243.2274, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2146341906
 MonoBehaviour:
@@ -3283,8 +3282,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 39.1
+  m_fontSizeBase: 39.1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3319,7 +3318,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -82.22925, y: 0, z: -96.95691, w: 0}
+  m_margin: {x: -82.22925, y: 0.000061035156, z: -96.95691, w: -136.88849}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

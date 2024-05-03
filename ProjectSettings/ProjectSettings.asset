@@ -701,7 +701,7 @@ PlayerSettings:
     PS5: DOTWEEN
     Stadia: DOTWEEN
     Standalone: DOTWEEN;TMP_PRESENT;USE_TIMELINE;DREAMTECK_SPLINES
-    WebGL: DOTWEEN
+    WebGL: DOTWEEN;DREAMTECK_SPLINES
     Windows Store Apps: DOTWEEN
     XboxOne: DOTWEEN
     iPhone: DOTWEEN

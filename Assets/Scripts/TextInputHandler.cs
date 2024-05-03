@@ -8,14 +8,15 @@ public class TextInputHandler : MonoBehaviour
 {
     public TMP_InputField inputField;
     public Button saveButton;
-    public TextMeshProUGUI displayText;  // Reference to the TextMeshPro UI component
+    public TextMeshProUGUI displayText;
 
     private List<string> scholarships = new List<string>();
     private string filePath;
 
     void Start()
     {
-        filePath = @"Assets\scholarships.txt";
+        // Use Application.persistentDataPath to ensure the path is correct on all platforms
+        filePath = Path.Combine(Application.persistentDataPath, "scholarships.txt");
         saveButton.onClick.AddListener(SaveAndResetInput);
         LoadScholarships();
         DisplayScholarships();
@@ -23,42 +24,33 @@ public class TextInputHandler : MonoBehaviour
 
     public void SaveAndResetInput()
     {
-        if (inputField == null)
+        if (inputField.text.Trim().Length > 0) // Check if the input is not just white spaces
         {
-            Debug.LogError("Attempted to use an unassigned Input Field!");
-            return;
-        }
-
-        if (scholarships.Count < 5)
-        {
-            scholarships.Add(inputField.text);
-            SaveScholarshipsToFile();
-            Debug.Log("Saved Scholarship: " + inputField.text);
-            inputField.text = ""; // Reset the input field
-            DisplayScholarships();  // Update the display text
-        }
-        else
-        {
-            Debug.Log("Maximum of 5 scholarships are allowed.");
-            inputField.text = ""; // Optionally reset even if no more entries can be made
+            if (scholarships.Count < 5)
+            {
+                scholarships.Add(inputField.text.Trim());
+                SaveScholarshipsToFile();
+                inputField.text = "";
+                DisplayScholarships();
+            }
+            else
+            {
+                Debug.Log("Maximum of 5 scholarships are allowed.");
+            }
         }
     }
 
     void SaveScholarshipsToFile()
     {
+        // Ensure the directory exists
         string directory = Path.GetDirectoryName(filePath);
         if (!Directory.Exists(directory))
         {
             Directory.CreateDirectory(directory);
         }
 
-        using (StreamWriter sw = new StreamWriter(filePath, false))
-        {
-            foreach (string scholarship in scholarships)
-            {
-                sw.WriteLine(scholarship);
-            }
-        }
+        // Save to file
+        File.WriteAllLines(filePath, scholarships);
     }
 
     void LoadScholarships()
@@ -66,30 +58,13 @@ public class TextInputHandler : MonoBehaviour
         scholarships.Clear();
         if (File.Exists(filePath))
         {
-            using (StreamReader sr = new StreamReader(filePath))
-            {
-                string line;
-                while ((line = sr.ReadLine()) != null)
-                {
-                    scholarships.Add(line);
-                }
-            }
+            scholarships.AddRange(File.ReadAllLines(filePath));
         }
         DisplayScholarships();
     }
 
     void DisplayScholarships()
     {
-        if (displayText == null)
-        {
-            Debug.LogError("Display Text not assigned!");
-            return;
-        }
-
-        displayText.text = "Scholarships:\n";
-        foreach (string scholarship in scholarships)
-        {
-            displayText.text += scholarship + "\n";
-        }
+        displayText.text = "Scholarships:\n" + string.Join("\n", scholarships);
     }
 }

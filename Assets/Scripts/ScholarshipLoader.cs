@@ -4,10 +4,21 @@ using System.IO;
 
 public class ScholarshipLoader : MonoBehaviour
 {
-    public string filePath = @"Assets\scholarships.txt"; // Path relative to the Assets folder
+    private string filePath = "scholarships.txt"; // File name to be used
+
+    void Start()
+    {
+        // Example usage
+        List<string> scholarships = LoadScholarships();
+        foreach (var scholarship in scholarships)
+        {
+            Debug.Log(scholarship);
+        }
+    }
+
     public List<string> LoadScholarships()
     {
-        string fullPath = Path.Combine(Application.dataPath, filePath);
+        string fullPath = Path.Combine(Application.persistentDataPath, filePath);
         List<string> scholarships = new List<string>();
 
         if (File.Exists(fullPath))
