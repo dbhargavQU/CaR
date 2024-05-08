@@ -581,7 +581,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Project CaR
+  m_text: Hop in the CAR
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c67c52c72f65ba14c8a4e0609ad0a68c, type: 2}
   m_sharedMaterial: {fileID: -2794044914158995089, guid: c67c52c72f65ba14c8a4e0609ad0a68c, type: 2}
